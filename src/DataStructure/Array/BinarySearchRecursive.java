@@ -1,4 +1,4 @@
-package DataStructure.LinkedList;
+package DataStructure.Array;
 
 /**
  * Created by Administrator on 11/8/2017.
