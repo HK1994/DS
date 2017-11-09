@@ -40,7 +40,7 @@ class LinkedList {
     }
 
 // method to add node at the end
-    private void insertNodeAtEnd(int data)
+    private void insertNodeAtEnd(Node prev_Node,int data)
     {
 
     }
