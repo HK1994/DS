@@ -7,6 +7,7 @@ import javax.xml.soap.Node;
  */
 
 // Traverse LinkedList with 3 nodes and print all elements
+//    Methods to insert node at any position in LL
 
 class LinkedList {
  Node head;
@@ -40,18 +41,38 @@ class LinkedList {
     }
 
 // method to add node at the end
-    private void insertNodeAtEnd(Node prev_Node,int data)
-    {
-
+private void insertAfter(Node prev_Node, int data) {
+    if (prev_Node == null) {
+        System.out.println("Previous Node can't be empty");
+        return;
     }
+    Node new_node = new Node(data);
+    new_node.next = prev_Node.next;
+    prev_Node.next = new_node;
+
+}
 
 
 // method to add node at some node
-    private void insertAfter()
-    {}
+    private void insertNodeAtEnd(int data)
+    {
+        Node new_node = new Node(data);
+        Node last = head;
+        while(last.next != null)
+        {
+            last = last.next;
+        }
+        last.next = new_node;
+    }
+
+
+    private void delete(Node n)
+    {
+
+    }
     
 
-
+//driver method
     public static void main(String[] args) {
         LinkedList object = new LinkedList();
 
@@ -63,5 +84,10 @@ class LinkedList {
         object.printlinkedlist();
         object.insertNodeAtBegin(5);
         object.printlinkedlist();
+        object.insertNodeAtEnd(6);
+        object.printlinkedlist();
+        object.insertAfter(second,9);
+
+
     }
 }
