@@ -66,8 +66,9 @@ private void insertAfter(Node prev_Node, int data) {
     }
 
 
-    private void delete(Node n)
+    private void delete(int del_node)
     {
+
 
     }
     
@@ -86,7 +87,8 @@ private void insertAfter(Node prev_Node, int data) {
         object.printlinkedlist();
         object.insertNodeAtEnd(6);
         object.printlinkedlist();
-        object.insertAfter(second,9);
+        object.insertAfter(object.head.next,9);
+        object.printlinkedlist();
 
 
     }
