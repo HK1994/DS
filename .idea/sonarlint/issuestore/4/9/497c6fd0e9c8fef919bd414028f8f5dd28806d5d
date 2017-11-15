@@ -1,16 +1,0 @@
-
-¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(å¤­Şùÿÿÿÿ8¦—ñ®ú+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ8¦—ñ®ú+
-ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿë‚”8¦—ñ®ú+
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(´°Àüÿÿÿÿ8¦—ñ®ú+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(‹·îûÿÿÿÿ8¦—ñ®ú+
-rsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îõƒy8¦—ñ®ú+
-xsquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å¤­Şùÿÿÿÿ8¦—ñ®ú+
-ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿë‚”8¦—ñ®ú+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(ß¢¥Œÿÿÿÿÿ8¦—ñ®ú+
-ssquid:S00117"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿë‚”8¦—ñ®ú+
-Zsquid:UnusedPrivateMethod"+Remove this unused private "delete" method.(å¤­Şùÿÿÿÿ8¦—ñ®ú+
-Psquid:S1172"/Remove this unused method parameter "del_node".(å¤­Şùÿÿÿÿ8¦—ñ®ú+
